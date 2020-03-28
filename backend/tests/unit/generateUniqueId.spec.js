@@ -5,5 +5,6 @@ describe('Generate Unique ID', () => {
         const id = generateUniqueId();
 
         expect(id).toHaveLength(8);
+        //console.log(id);
     });
 });
